@@ -1,0 +1,22 @@
+# Checkout
+checkout-ui-custom/
+checkout/package-lock.json
+checkout/yarn.lock
+
+# App specific
+node_modules/
+docs/_book/
+.tmp
+.idea
+npm-debug.log
+.build/
+lib
+.eslintrc
+*.orig
+react/package-lock.json
+styles/css
+styles/css*.css
+react/yarn-error.log
+react/yarn.lock
+
+*.css
