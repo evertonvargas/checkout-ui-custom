@@ -5,5 +5,10 @@
   "builders": {
     "checkout-ui-custom": "0.x"
   },
+  "dependencies": {
+    "vtex.checkout-graphql": "0.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.pages-graphql": "2.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

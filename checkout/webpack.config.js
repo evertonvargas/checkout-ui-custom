@@ -43,6 +43,11 @@ module.exports = () => {
             use: "babel-loader",
             exclude: /node_modules/,
           },
+          {
+            test: /\.(graphql|gql)$/,
+            exclude: /node_modules/,
+            use: ['graphql-tag/loader'],
+          }
         ],
       },
       resolve: {

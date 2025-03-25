@@ -1,11 +1,11 @@
 import React from "react";
 import { createRoot } from "react-dom";
-import { ButtonConsole } from "../components/ButtonConsole";
+import App from "../components/ButtonConsole"; // Ajuste o caminho conforme necessário
 
 window.addEventListener("DOMContentLoaded", () => {
   const div = document.createElement("div");
   document.querySelector(".container").append(div);
 
   const root = createRoot(div);
-  root.render(<ButtonConsole />);
+  root.render(<App />);
 });
