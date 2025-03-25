@@ -1,7 +1,7 @@
 {
   "name": "checkout-ui-custom",
   "vendor": "squadgrow",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "builders": {
     "checkout-ui-custom": "0.x"
   },
