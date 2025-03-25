@@ -28,6 +28,10 @@ $ yarn
 $ yarn run dev
 ```
 
+## 📁 Uso de Graphql
+
+Na pasta componentes, o componente ButtonConsole.jsx exemplifica o uso de graphql no checkout.
+
 # ⚠️ Atenção
 
 Ao realizar o deploy deste aplicativo e instalá-lo na **master**, o código será automaticamente promovido para produção e integrado aos demais códigos existentes.
