@@ -30,7 +30,7 @@ export function ButtonConsole() {
             className="button-style"
             onClick={handleClick}
         >
-            Imprimir no console
+            Exemplo de consulta graphql no checkout
         </button>
     );
 }
